@@ -12,7 +12,7 @@ function Convert () {
     let output = document.querySelector('[data-res]')
 
     // varaiable for result
-    let res = +age.value * 365
+    let res = (+age.value * 365).toFixed(2)
     
     // append to output
     if (+age.value < 0 ){
